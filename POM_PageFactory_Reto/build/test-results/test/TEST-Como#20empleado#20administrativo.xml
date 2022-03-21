@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Como empleado administrativo" tests="2" skipped="0" failures="2" errors="0" timestamp="2022-03-14T14:54:29" hostname="SISAZADRI" time="1.808">
+  <properties/>
+  <testcase name="Ingreso de un estudiante con los campos obligatorios." classname="Como empleado administrativo" time="1.266">
+    <failure message="java.lang.NoSuchMethodError: com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;
+	at org.openqa.selenium.chrome.ChromeOptions.asMap(ChromeOptions.java:292)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at co.com.sofka.stepdefinition.setup.WebUi.generalSetUp(WebUi.java:29)
+	at co.com.sofka.stepdefinition.practiceform.PracticeFormStepDefinition.queElEmpleadoAdministrativoSeEncuentraEnLaPaginaWebDeLosIngresosDeEstudiantes(PracticeFormStepDefinition.java:30)
+	at ✽.que el empleado administrativo se encuentra en la pagina web de los ingresos de estudiantes(file:///C:/Users/dell%20i5%2010gn/Documents/ADRIANA/SOFKA/Proyectos%20sofka/DemoToolsQA/src/test/resources/features/practiceform/practiceForm.feature:7)
+</failure>
+  </testcase>
+  <testcase name="Ingreso de un estudiante usando todos los campos." classname="Como empleado administrativo" time="0.542">
+    <failure message="java.lang.NoSuchMethodError: com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;
+	at org.openqa.selenium.chrome.ChromeOptions.asMap(ChromeOptions.java:292)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at co.com.sofka.stepdefinition.setup.WebUi.generalSetUp(WebUi.java:29)
+	at co.com.sofka.stepdefinition.practiceform.PracticeFormStepDefinition.queElEmpleadoAdministrativoSeEncuentraEnLaPaginaWebDeLosIngresosDeEstudiantes(PracticeFormStepDefinition.java:30)
+	at ✽.que el empleado administrativo se encuentra en la pagina web de los ingresos de estudiantes(file:///C:/Users/dell%20i5%2010gn/Documents/ADRIANA/SOFKA/Proyectos%20sofka/DemoToolsQA/src/test/resources/features/practiceform/practiceForm.feature:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 49123
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 26907
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+</testsuite>
